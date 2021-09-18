@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            // Comentario linha 1
+            // Comentario linha 2
+            /*
+                Comentario linha 1
+                Comentario linha 2
+            */
+
+            // Console
+            console.log('esta eh a minha primeira mensagem');
+            console.error('O sistema parou!!');
+            console.info('a mensagem eh de informacao');
+            console.warn('aviso!!');
+
+            // string, boolean, number, object, null, undefined, Symbol
+            // const, let, var
+            const PI = 3.14;
+            console.log('PI', PI);
+
+            let nome = 'John';
+            nome = 12345;
+            console.log(nome);
+
+            const b = false;
+            let idade = 27;
+            const x = null;
+            let y = 33.5;
+            let und;
+
+            console.log(und, x);
+
+            var xyz = 12345;
+            console.log(xyz);
+
+            // JSON
+            const usuario = {
+                firstname: 'John',
+                lastname: 'Doe',
+                age: 28,
+                email: 'johndoe@email.com',
+                isStudent: true,
+                class: {
+                    className: 'Programação',
+                    hasClassesAtThursday: true,
+                    howManyHoursPerWeek: 8
+                }
+            }
+
+            console.log('usuario', usuario);
+
+            // Vetor/Array
+            let alunos = ['john', 'mark', 'gabriela'];
+
+            console.log(alunos);
+            console.log('o numero de alunos eh', alunos.length)
+
+            alunos = ['john', 'mark'];
+
+            console.log(alunos)
+
+            alunos = ['john', 1, true, 'mark', null, 12.5];
+
+            console.log(alunos);
+
+            const nomeEmMaiusculo = 'John';
+
+            console.log(nomeEmMaiusculo.toUpperCase());
+        </script>
+
+        <script src="./script.js"></script>
+        <script src="./estrutura-de-condicao.js"></script>
+        <script src="./estrutura-de-repeticao.js"></script>
+    </body>
+</html>
